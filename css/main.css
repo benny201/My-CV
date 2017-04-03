@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*index-page*/
+.section {
+  text-align: center;
+}
+
+#my-image {
+  width: 194px;
+  height: 194px;
+  /*display: block;*/
+  border-radius: 50%;
+  border:10px solid #A6ACAF;
+}
+
+#name {
+  color: white;
+  font-size: 40px;
+  text-shadow: 2px 2px #A6ACAF, 2px 4px #A6ACAF;
+}
+
+#goal h2{
+  display: inline-block;
+}
+
+#position {
+  color: #66CCFF;
+  text-shadow: 2px 2px #A6ACAF, 2px 4px #A6ACAF;
+}

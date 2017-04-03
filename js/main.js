@@ -1,19 +1,20 @@
+// pagepiling init
 $(document).ready(function() {
 	$('#pagepiling').pagepiling({
 	    menu: null,
         direction: 'vertical',
         verticalCentered: true,
-        sectionsColor: ['#F0B27A', '#95A5A6', '#707B7C', '#797D7F'],
+        sectionsColor: ['#AED6F1', '#95A5A6', '#707B7C', '#797D7F'],
         anchors: [],
         scrollingSpeed: 700,
         easing: 'swing',
-        loopBottom: false,
-        loopTop: false,
+        loopBottom: true,
+        loopTop: true,
         css3: true,
         navigation: {
             'textColor': '#000',
             'bulletsColor': '#000',
-            'position': 'right',
+            'position': 'left',
             'tooltips': ['section1', 'section2', 'section3', 'section4']
         },
        	normalScrollElements: null,
@@ -29,7 +30,3 @@ $(document).ready(function() {
 		afterRender: function(){},
 	});
 });
-
-// $(document).ready(function() {
-//     $('#pagepiling').pagepiling();
-// });
