@@ -4,7 +4,7 @@ $(document).ready(function() {
 	    menu: null,
         direction: 'vertical',
         verticalCentered: true,
-        sectionsColor: ['#AED6F1', '#AED6F1', '#AED6F1', '#AED6F1'],
+        sectionsColor: ['#E5E7E9', '#D5DBDB', '#AED6F1', '#AED6F1', '#AED6F1'],
         anchors: [],
         scrollingSpeed: 700,
         easing: 'swing',
@@ -15,7 +15,7 @@ $(document).ready(function() {
             'textColor': '#000',
             'bulletsColor': '#000',
             'position': 'left',
-            'tooltips': ['首页', '教育', 'section3', 'section4']
+            'tooltips': ['首页', '项目', '技术', '教育', 'more']
         },
        	normalScrollElements: null,
         normalScrollElementTouchThreshold: 5,
@@ -38,8 +38,10 @@ $('#down').click(function (event) {
 });
 $('#down').mouseenter(function () {
   $('#down').attr("src", "./images/ghost.gif");
+  $('.down').css("left", "43%");
 });
 
 $('#down').mouseleave(function () {
   $('#down').attr("src", "./images/down.png");
+  $('.down').css("left", "49%");
 });
