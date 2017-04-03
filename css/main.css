@@ -88,3 +88,12 @@ a:active {
   text-align: left;
   font-size:
 }
+
+/*down*/
+.down {
+  position: fixed;
+  bottom: 1rem;
+  right: 0px;
+  left: 49%;
+  z-index: 1000;
+}

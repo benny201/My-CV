@@ -30,3 +30,16 @@ $(document).ready(function() {
 		afterRender: function(){},
 	});
 });
+
+//down circle
+$('#down').click(function (event) {
+  event.preventDefault();
+  $.fn.pagepiling.moveSectionDown();
+});
+$('#down').mouseenter(function () {
+  $('#down').attr("src", "./images/ghost.gif");
+});
+
+$('#down').mouseleave(function () {
+  $('#down').attr("src", "./images/down.png");
+});
