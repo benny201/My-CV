@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif !important;
+  /*font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif !important;*/
 }
 a {
   text-decoration:none !important;
@@ -26,6 +26,15 @@ a:active {
 
 }
 
+/*down*/
+.down {
+  position: fixed;
+  bottom: 1rem;
+  right: 0px;
+  left: 49%;
+  z-index: 1000;
+}
+
 
 /*index-page*/
 .section {
@@ -41,33 +50,39 @@ a:active {
 }
 
 #name {
-  color: white;
+  color: #2C3E50;
   font-size: 60px;
-  text-shadow: 2px 2px #5DADE2, 2px 4px #D6EAF8;
+  text-shadow: 1px 2px #A6ACAF, 2px 4px #A6ACAF;
 }
 
 #goal h2{
   display: inline-block;
-  color: rgba(16, 98, 138, 0.71);
+  color: rgb(77,86,86);
 }
 
 #position {
-  color: #757575 ;
-  text-shadow: 1px 2px #A6ACAF, 2px 4px #A6ACAF;
+  /*color: #757575 ;*/
+  color: rgb(77,86,86);
+  /*text-shadow: 1px 2px #A6ACAF, 2px 4px #A6ACAF;*/
 }
 
+.contact {
+}
 #email{
   margin: 0px;
   padding: 0px;
   color: #757575;
+  /*text-align: left;*/
 }
 
 /*project page*/
-#title {
-  color: white;
+.title {
+  /*color: #808B96;*/
+  color: rgb(77,86,86);
   font-size: 60px;
   margin-bottom: 50px;
-  text-shadow: 1px 2px #5DADE2, 2px 4px #D6EAF8;
+  /*text-shadow: 1px 2px #BDC3C7, 2px 4px #F2F3F4;*/
+  text-shadow: 1px 2px #A6ACAF, 2px 4px #A6ACAF;
 }
 
 #news {
@@ -86,14 +101,23 @@ a:active {
 
 .content {
   text-align: left;
-  font-size:
 }
 
-/*down*/
-.down {
-  position: fixed;
-  bottom: 1rem;
-  right: 0px;
-  left: 49%;
-  z-index: 1000;
+/*skill page*/
+.skill-row {
+}
+
+.skill-item {
+  background-color: #212F3D;
+  color: #F0F3F4;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 2px 8px;
+  margin-right: 4px;
+  margin-bottom: 10px;
+  opacity: 0.5
+}
+
+.skill-familiar {
+  background-color: #566573 !important;
 }

@@ -4,7 +4,7 @@ $(document).ready(function() {
 	    menu: null,
         direction: 'vertical',
         verticalCentered: true,
-        sectionsColor: ['#E5E7E9', '#D5DBDB', '#AED6F1', '#AED6F1', '#AED6F1'],
+        sectionsColor: ['#E5E7E9', '#E5E7E9', '#E5E7E9', '#E5E7E9', '#E5E7E9'],
         anchors: [],
         scrollingSpeed: 700,
         easing: 'swing',
@@ -39,9 +39,11 @@ $('#down').click(function (event) {
 $('#down').mouseenter(function () {
   $('#down').attr("src", "./images/ghost.gif");
   $('.down').css("left", "43%");
+	$('.down').css("bottom", "-20px");
 });
 
 $('#down').mouseleave(function () {
   $('#down').attr("src", "./images/down.png");
   $('.down').css("left", "49%");
+	$('.down').css("bottom", "1rem");
 });
