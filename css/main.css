@@ -121,3 +121,29 @@ a:active {
 .skill-familiar {
   background-color: #566573 !important;
 }
+
+/*more page*/
+/*#id {
+  color: #2ECC71 !important;
+}
+#id a:visited,a:link   {
+  color: #2ECC71 !important;
+}
+#id a:hover {
+  color: rgb(77,86,86) !important;
+}
+a:active {
+  color: #424949;
+}*/
+
+a.highlight {
+  color: #2980B9;
+}
+
+.contact-item {
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 4px;
+  margin-bottom: 10px;
+  opacity: 0.5
+}
