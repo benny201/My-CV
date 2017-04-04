@@ -46,7 +46,7 @@ a:active {
   height: 194px;
   /*display: block;*/
   border-radius: 50%;
-  border:10px solid #154360;
+  border:10px solid #3498DB;
 }
 
 #name {
@@ -137,6 +137,7 @@ a:active {
 }*/
 
 a.highlight {
+  font-weight: bold;
   color: #2980B9;
 }
 
