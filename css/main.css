@@ -123,19 +123,6 @@ a:active {
 }
 
 /*more page*/
-/*#id {
-  color: #2ECC71 !important;
-}
-#id a:visited,a:link   {
-  color: #2ECC71 !important;
-}
-#id a:hover {
-  color: rgb(77,86,86) !important;
-}
-a:active {
-  color: #424949;
-}*/
-
 a.highlight {
   font-weight: bold;
   color: #2980B9;
