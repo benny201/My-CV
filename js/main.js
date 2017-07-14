@@ -32,18 +32,18 @@ $(document).ready(function() {
 });
 
 //down circle
-$('#down').click(function (event) {
-  event.preventDefault();
-  $.fn.pagepiling.moveSectionDown();
-});
-$('#down').mouseenter(function () {
-  $('#down').attr("src", "./images/ghost.gif");
-  $('.down').css("left", "43%");
-	$('.down').css("bottom", "-20px");
-});
+// $('#down').click(function (event) {
+//   event.preventDefault();
+//   $.fn.pagepiling.moveSectionDown();
+// });
+// $('#down').mouseenter(function () {
+//   $('#down').attr("src", "./images/ghost.gif");
+//   $('.down').css("left", "43%");
+// 	$('.down').css("bottom", "-20px");
+// });
 
-$('#down').mouseleave(function () {
-  $('#down').attr("src", "./images/down.png");
-  $('.down').css("left", "49%");
-	$('.down').css("bottom", "1rem");
-});
+// $('#down').mouseleave(function () {
+//   $('#down').attr("src", "./images/down.png");
+//   $('.down').css("left", "49%");
+// 	$('.down').css("bottom", "1rem");
+// });
